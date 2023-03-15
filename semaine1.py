@@ -8,21 +8,14 @@ NB NOUS IRIONT DE FACON SEPARE
 1- un triangle equilatéral
 2- un triangle rectangle
 3- un rectangle
-4- un losange
+4- un parallelogramme
 -------------------------------------------------------------------------------------
 '''
 
 # commençons par un triangle equilatéral
 '''
  	le tiangle equilatéral à ses trois cotés egals
- 	**********************************************
-voici un exemple
-------------------------
- 	 |    *		|
- 	 |   * *	|
- 	 |  * * *	|
- 	 | * * * *	|
-------------------------
+
 '''
 
 marge=['* ',' ']
@@ -32,7 +25,7 @@ marge=['* ',' ']
 
 iteration = 0
 
-# definitionn du nombre de ligne 
+# définitionn du nombre de ligne 
 
 ligne = 10
 
@@ -44,11 +37,10 @@ while iteration <= ligne:
 
 	iteration+=1
 
-'''
-
-2- triangle rectangle
-Nous connaissons tous la définition d'un triangle rectangle 
-'''
+	'''
+	2- triangle rectangle
+	Nous connaissons tous la définition d'un triangle rectangle 
+	'''
 print('2 - ----------------------Triangle rectangle---------------------')
 
 iteration = 0
