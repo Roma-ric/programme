@@ -65,7 +65,7 @@ while iteration <= ligne:
 
 
 print('3 ------------------ Un rectangle---------------------') 
-
+#nous connaissons tous la définition d'un triangle rectangle
 iteration = 0
 colonne = 30
 ligne= 6
@@ -78,7 +78,7 @@ while iteration <= ligne:
 	iteration+=1
 
 
-print('4 ------------------ le losange ---------------------') 
+print('4 ------------------ Le parallelogramme ---------------------') 
 
 iteration = 0
 
@@ -86,14 +86,16 @@ iteration = 0
 
 ligne = 10
 
-
+# a ce niveau, il nous faut deux triangles 
 while iteration <= ligne:
-
+#le premier triangle est contruit précedement 
 	print('{} {}'.format(marge[1] * (ligne - iteration), marge[0] * iteration))
 
 	if iteration == ligne:
 		iteration = 10
 		while iteration >= 0:
+      
+#on tente juste de renverser ce triangle
 
 			print('{} {}'.format(marge[1] * (ligne - iteration), marge[0] * iteration))
 			iteration -= 1
