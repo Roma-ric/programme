@@ -19,3 +19,5 @@ Le programme utilise une boucle while pour afficher un rectangle de 30 colonnes 
 Le programme utilise deux boucles while pour former un parallélogramme à partir de deux triangles équilatéraux, en utilisant la même méthode de formatage de chaîne de caractères que pour le triangle équilatéral.
 
 En résumé, ce programme est un exemple simple d'utilisation de listes et de boucles en Python pour former des figures géométriques simples.
+
+Merci!!!
